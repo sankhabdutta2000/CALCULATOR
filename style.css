@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 10vh;
+    background-color: rgb(10,10,73);
+    color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mode{
+    margin: 0 0 0 2rem;
+}
+.heading{
+    font-size: 30px;
+}
+.darkmode{
+    margin: 0 2rem 0 0;
+}
+.calculatearea{
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 3rem;
+    width: 35vw;
+    height: 2.5rem;
+}
+.userinput{
+    text-align: right;
+}
+.pcinput{
+    text-align: right;
+}
+
+.tools{
+    width: 25vmin;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 7px;
+    column-gap: 7px;
+    position: relative;
+    margin: 37%;
+    margin-top: 20vh
+}
+.box{
+    border: 2px solid aqua;
+    width: 2.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.box:hover{
+    font-size: 20px;
+    background-color: rgb(219, 223, 14);
+}
